@@ -9,4 +9,4 @@ Traffic systems are multi-agent cyber-physical systems whose performance is clos
 ### Required Dependencies
 
 ### 1. Run Vissim Traffic Simulation
-First obtain the traffic data by running the simulation included in the [Vissim Simulator](../SmartAutonomyLab/Statistical-Verification-of-Traffic-Systems-with-Expected-Differential-Privacy/tree/main/Vissim%20Simulator) folder.
+First obtain the traffic data by running the simulation included in the [Vissim Simulator](../SmartAutonomyLab) folder.
