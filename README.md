@@ -6,7 +6,10 @@ Traffic systems are multi-agent cyber-physical systems whose performance is clos
 
 ## How to Use This Code
 
-### Required Dependencies
+### 0. Required Dependencies
 
 ### 1. Run Vissim Traffic Simulation
-First obtain the traffic data by running the simulation included in the [Vissim Simulator folder](../main/Vissim%20Simulator).
+First obtain the traffic data by running the simulation included in the [Vissim Simulator folder](../main/Vissim%20Simulator). The simulator will output `.att` data files. Convert these into `.xlsx` files.
+
+### 2. Reformat Data
+After obtaining the traffic data, use the script `Read_Data.m` to read the `.xlsx` files and convert them into `.mat` data files.
