@@ -15,3 +15,6 @@ To set different simulation parameters, go to the "Simulation" tab at the top, t
 ![alt text](https://github.com/SmartAutonomyLab/Statistical-Verification-of-Traffic-Systems-with-Expected-Differential-Privacy/blob/main/Vissim%20Simulator/sim_param_window.png "Logo Title Text 1")
 
 <img src="[https://user-images.githubusercontent.com/link-to-your-image.png](https://github.com/SmartAutonomyLab/Statistical-Verification-of-Traffic-Systems-with-Expected-Differential-Privacy/blob/main/Vissim%20Simulator/sim_param_window.png)" width="100" />
+
+
+<img src="https://github.com/SmartAutonomyLab/Statistical-Verification-of-Traffic-Systems-with-Expected-Differential-Privacy/blob/main/Vissim%20Simulator/sim_param_window.png" width="100" />
