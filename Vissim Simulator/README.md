@@ -13,6 +13,4 @@ There are many tutorials available online. [Here](https://youtube.com/playlist?l
 ## Simulation Parameters
 To set different simulation parameters, go to the "Simulation" tab at the top, then click "Parameters." A window will pop-up like the following:
 
-<img src="https://github.com/SmartAutonomyLab/Statistical-Verification-of-Traffic-Systems-with-Expected-Differential-Privacy/blob/main/Vissim%20Simulator/sim_param_window.png" width="200" />
-
-<img src="sim_param_window.png" width="200" />
+<img src="sim_param_window.png" width="300" />
