@@ -10,7 +10,11 @@ All three `.inp0`, `.inpx`, and `.layx` files are needed for the simulation to w
 ## Tutorials
 There are many tutorials available online. [Here](https://youtube.com/playlist?list=PLsp6xnws6TOAy1bjEw9eeXN5tAHQsgxh0) is one example for beginners.
 
-## Simulation Parameters
-To set different simulation parameters, go to the "Simulation" tab at the top, then click "Parameters." A window will pop-up like the following:
+## Simulation Parameters and Folder Locations
+To set different simulation parameters, go to the _Simulation_ tab at the top, then click _Parameters_. A window will pop-up like the following:
 
 <img src="sim_param_window.png" width="300" />
+
+To specify the folder for saving data, go to the _Evaluation_ tab at the top, then click _Configuration_. A window will pop-up like the following:
+
+<img src="data_folder.png" width="300" />
