@@ -17,4 +17,4 @@ To set different simulation parameters, go to the _Simulation_ tab at the top, t
 
 To specify the folder for saving data, go to the _Evaluation_ tab at the top, then click _Configuration_. A window will pop-up like the following:
 
-<img src="data_folder.png" width="300" />
+<img src="data_folder.png" width="400" />
