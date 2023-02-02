@@ -9,3 +9,6 @@ All three `.inp0`, `.inpx`, and `.layx` files are needed for the simulation to w
 
 ## Tutorials
 There are many tutorials available online. [Here](https://youtube.com/playlist?list=PLsp6xnws6TOAy1bjEw9eeXN5tAHQsgxh0) is one example for beginners.
+
+## Simulation Parameters
+To set different simulation parameters, go to the "Simulation" tab at the top, then click "Parameters." A window will pop-up like the following:
