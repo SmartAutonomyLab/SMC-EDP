@@ -13,3 +13,8 @@ First obtain the traffic data by running the simulation included in the [Vissim 
 
 ### 2. Reformat Data
 After obtaining the traffic data, use the script `Read_Data.m` to read the `.xlsx` files and convert them into `.mat` data files.
+
+### 3. Add more instructions here.
+
+### Tips
+Since a large amount of data will be saved into `.mat` files, be sure to turn on `save -v7.3` so that you can save variables that exceed 2GB. The instructions for navigating to this setting option can be found on the [MATLAB Help Center](https://www.mathworks.com/help/matlab/import_export/mat-file-versions.html).
