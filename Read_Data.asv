@@ -11,9 +11,9 @@ addpath(folder_path);
 % There is no shortcut to this coding...
 file1 = readtable('1 - 70000.xlsx');
 file2 = readtable('70001 - 100000.xlsx');
+
 % Total number of files to read.
 num_files = 2;
-
 % Initialize an empty cell.
 big_data = cell(num_files,1);
 % Initialize a variable to record the total number of simulations ran.
@@ -150,8 +150,7 @@ seed_sequences = randi(height(speed), 500, 1e6);
 
 % Save the seed sequences.
 fprintf('Saving seed sequence......');
-% When saving, append the file name to the folder path.
-save(append(folder_path, '/seed_sequences.mat'), 'seed_sequences');
+save('./Algorithm Data/seed_sequences.mat', 'seed_sequences');
 fprintf('Done!\n');
 
 %% Generate Satisfaction Probability (p_phi)
@@ -192,6 +191,5 @@ end
 
 % Save the satisfaction probabilities.
 fprintf('Saving p_phi data......');
-% When saving, append the file name to the folder path.
-save(append(folder_path, '/p_phi_data.mat'), 'p_phi_data');
+save('./Algorithm Data/p_phi_data.mat', 'p_phi_data');
 fprintf('Done!\n');
