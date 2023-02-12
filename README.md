@@ -17,6 +17,7 @@ After obtaining the traffic data, use the script `Read_Data.m` to read the `.xls
 2. Specify the `.xlsx` file names for the variables `file1`, `file2`, etc. Add as many as necessary.
 3. Specify the number of files that the script needs to read in the variable `num_files`.
 4. Specify the seed `rng` in section `%% Generate Seed Array` of the script.
+5. Run the script.
 
 This script will output the following three `.mat` files:
 - `correctness_of_phi_table.mat`
