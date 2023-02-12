@@ -2,7 +2,7 @@
 % Clear the workspace, clear the command window, and close all windows.
 clc;clear;close all;
 
-% Specify the folder path that will hold the Excel and matlab data files.
+% Specify the folder path that will hold the Excel and MATLAB data files.
 folder_path = './Algorithm Data';
 % Add the path
 addpath(folder_path);
@@ -11,6 +11,10 @@ addpath(folder_path);
 % There is no shortcut to this coding...
 file1 = readtable('1 - 70000.xlsx');
 file2 = readtable('70001 - 100000.xlsx');
+% Add as many lines as necessary.
+% file3 = readtable('...');
+% file4 = readtable('...');
+% file5 = readtable('...');
 % Total number of files to read.
 num_files = 2;
 
