@@ -2,18 +2,23 @@
 % Clear the workspace, clear the command window, and close all windows.
 clc;clear;close all;
 
-% Specify the folder path that will hold the Excel and matlab data files.
+% Specify the folder path that will hold the Excel and MATLAB data files.
 folder_path = './Algorithm Data';
 % Add the path
 addpath(folder_path);
 
+%
 %% Read Excel Sheets
 % There is no shortcut to this coding...
 file1 = readtable('1 - 70000.xlsx');
 file2 = readtable('70001 - 100000.xlsx');
-
+% Add as many lines as necessary.
+% file3 = readtable('...');
+% file4 = readtable('...');
+% file5 = readtable('...');
 % Total number of files to read.
 num_files = 2;
+
 % Initialize an empty cell.
 big_data = cell(num_files,1);
 % Initialize a variable to record the total number of simulations ran.
@@ -150,7 +155,8 @@ seed_sequences = randi(height(speed), 500, 1e6);
 
 % Save the seed sequences.
 fprintf('Saving seed sequence......');
-save('./Algorithm Data/seed_sequences.mat', 'seed_sequences');
+% When saving, append the file name to the folder path.
+save(append(folder_path, '/seed_sequences.mat'), 'seed_sequences');
 fprintf('Done!\n');
 
 %% Generate Satisfaction Probability (p_phi)
@@ -191,5 +197,6 @@ end
 
 % Save the satisfaction probabilities.
 fprintf('Saving p_phi data......');
-save('./Algorithm Data/p_phi_data.mat', 'p_phi_data');
+% When saving, append the file name to the folder path.
+save(append(folder_path, '/p_phi_data.mat'), 'p_phi_data');
 fprintf('Done!\n');

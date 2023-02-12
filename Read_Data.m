@@ -7,6 +7,7 @@ folder_path = './Algorithm Data';
 % Add the path
 addpath(folder_path);
 
+
 %% Read Excel Sheets
 % There is no shortcut to this coding...
 file1 = readtable('1 - 70000.xlsx');
@@ -146,6 +147,9 @@ fprintf('Done!\n');
 
 
 %% Generate Seed Array
+% Specify the seed for the following random number generator.
+rng(1)
+
 % The order of the seed must be recorded for Algorithm 2 because the order
 % of the seed for both (sigma) and (sigma_prime) must be the same.
 % For each value of L, go through each set of seed sequence.
