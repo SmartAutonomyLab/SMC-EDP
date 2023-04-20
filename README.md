@@ -13,6 +13,11 @@ First obtain the traffic data by running the simulation included in the [Vissim 
 
 __Structure of Vehicle Data__
 - `SIMRUN` refers to the simulation run. It matches with the seed value used during the simulation.
+- `TIMEINT` is the time interval of the simulation in seconds.
+- `VEHICLETRAVELTIMEMEASUREMENT` indicates the route being measured (e.g., heading northbound on 13th street).
+- `VEHS(ALL)` is the total number of vehicles recorded on the route.
+- `TRAVTM(ALL)` is the average travel time in seconds of vehicles on the route.
+- `DISTTRAV(ALL)` is the length of the route in meters.
 
 ### 2. Reformat Data and Specify Seed
 After obtaining the traffic data, use the script `Read_Data.m` to read the `.xlsx` files and convert them into `.mat` data files:
