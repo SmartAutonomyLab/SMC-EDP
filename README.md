@@ -27,7 +27,7 @@ After obtaining the traffic data, use the script `Read_Data.m` to read the `.xls
 4. Specify the seed `rng` in section `%% Generate Seed Array` of the script.
 5. Run the script.
 
-This script will output the following three `.mat` files:
+This script will output the following three `.mat` files, which are also found in [this folder](https://uflorida-my.sharepoint.com/:f:/g/personal/markyen_ufl_edu/EjY9s00-IslOqTX94M0U3RkB93y-sh3-1arLXj_xGJBNwg?e=DG9YW1):
 - `correctness_of_phi_table.mat`: This is an array of outputs from Equation 23 found in the [paper](https://arxiv.org/abs/2302.01388). `0` represents False and `1` represents True. Each column is a different route and a different driving decision (e.g., northbound on 13th St and turning right). Each row is a sample.
 - `seed_sequences.mat`: This is an array of sample sequences for the script `main.m` to follow. Each row is one sequence of samples.
 - `p_phi_data.mat`: This contains other information such as the satisfaction probability ![alt text](https://latex.codecogs.com/svg.image?p_\varphi).
