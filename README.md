@@ -11,6 +11,9 @@ Traffic systems are multi-agent cyber-physical systems whose performance is clos
 ### 1. Run Vissim Traffic Simulation
 First obtain the traffic data by running the simulation included in the [Vissim Simulator folder](../main/Vissim%20Simulator). The simulator will output `.att` data files. Convert these into `.xlsx` files and save them to a folder. Vehicle data for the first 100,000 seeds have been collected in [this folder](https://uflorida-my.sharepoint.com/:f:/g/personal/markyen_ufl_edu/EjY9s00-IslOqTX94M0U3RkB93y-sh3-1arLXj_xGJBNwg?e=DG9YW1); they are located in the Excel sheets `1 - 70000.xlsx` and `70001 - 100000.xlsx`.
 
+__Structure of Vehicle Data__
+- `SIMRUN` refers to the simulation run. It matches with the seed value used during the simulation.
+
 ### 2. Reformat Data and Specify Seed
 After obtaining the traffic data, use the script `Read_Data.m` to read the `.xlsx` files and convert them into `.mat` data files:
 1. Specify the folder location for the variable `folder_path`.
